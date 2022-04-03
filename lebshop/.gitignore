@@ -1,0 +1,19 @@
+.vscode/
+
+# Mac/OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Flask
+instance/
+.webassets-cache
