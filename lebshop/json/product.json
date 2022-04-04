@@ -30,36 +30,6 @@
       "image_name": "apples.jpg"
     },
     {
-      "name": "Apples - green",
-      "price": "0.8",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "A bit sour green apples",
-      "categories": ["juicy", "green", "sour"],
-      "in_stock": true,
-      "image_name": "apples-green.jpg"
-    },
-    {
-      "name": "Apples - yellow",
-      "price": "0.8",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Sweet yello apples",
-      "categories": ["juicy", "sweet"],
-      "in_stock": true,
-      "image_name": "apples-yellow.jpg"
-    },
-    {
-      "name": "Pear",
-      "price": "2",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Fresh Juicy Pears",
-      "categories": ["juicy"],
-      "in_stock": true,
-      "image_name": "pear.jpg"
-    },
-    {
       "name": "Blueberries",
       "price": "3",
       "uom": "kg",
@@ -100,17 +70,7 @@
       "image_name": "orange-normal.jpg"
     },
     {
-      "name": "Orange - Sugar",
-      "price": "0.5",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Fresh tasty oranges, No sour, Sweet",
-      "categories": ["juicy", "sweet"],
-      "in_stock": true,
-      "image_name": "orange-sugar.jpg"
-    },
-    {
-      "name": "Orange - dragon red",
+      "name": "Orange - Sour",
       "price": "0.5",
       "uom": "kg",
       "currency": "$",
@@ -140,26 +100,6 @@
       "image_name": "avocado.jpg"
     },
     {
-      "name": "Passion Fruit",
-      "price": "8",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Native Passion Fruit",
-      "categories": ["juicy", "sour", "tropical"],
-      "in_stock": true,
-      "image_name": "passion-fruit.jpg"
-    },
-    {
-      "name": "Mango",
-      "price": "8",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Brazilian Mangos",
-      "categories": ["juicy", "tropical"],
-      "in_stock": true,
-      "image_name": "mango.jpg"
-    },
-    {
       "name": "Clementine",
       "price": "2",
       "uom": "kg",
@@ -180,7 +120,7 @@
       "image_name": "kiwi.jpg"
     },
     {
-      "name": "Grapes - white",
+      "name": "Grapes",
       "price": "3",
       "uom": "kg",
       "currency": "$",
@@ -188,86 +128,6 @@
       "categories": ["juicy", "berries"],
       "in_stock": true,
       "image_name": "grapes-white.jpg"
-    },
-    {
-      "name": "Grapes - black",
-      "price": "3",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Native Grapes",
-      "categories": ["juicy", "berries"],
-      "in_stock": true,
-      "image_name": "grapes-black.jpg"
-    },
-    {
-      "name": "Grapes - purple",
-      "price": "3",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Native Grapes",
-      "categories": ["juicy", "berries"],
-      "in_stock": true,
-      "image_name": "grapes-red.jpg"
-    },
-    {
-      "name": "Guava",
-      "price": "6",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Fresh Guava",
-      "categories": ["tropical"],
-      "in_stock": true,
-      "image_name": "guava.jpg"
-    },
-    {
-      "name": "Peach",
-      "price": "5",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Native Fresh Peaches",
-      "categories": ["juicy"],
-      "in_stock": true,
-      "image_name": "peach.jpg"
-    },
-    {
-      "name": "Nectarine",
-      "price": "6",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Native Fresh Nectarine",
-      "categories": ["juicy", "berries"],
-      "in_stock": true,
-      "image_name": "nactarine.jpg"
-    },
-    {
-      "name": "Apricot",
-      "price": "3",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Native Fresh Apricot",
-      "categories": ["berries"],
-      "in_stock": true,
-      "image_name": "apricot.jpg"
-    },
-    {
-      "name": "Cherry",
-      "price": "3",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Native Fresh Cherries",
-      "categories": ["berries"],
-      "in_stock": true,
-      "image_name": "cherry.jpg"
-    },
-    {
-      "name": "walnut",
-      "price": "80",
-      "uom": "kg",
-      "currency": "$",
-      "desc": "Whole Walnuts",
-      "categories": [],
-      "in_stock": true,
-      "image_name": "walnut.jpg"
     },
     {
       "name": "Almond",

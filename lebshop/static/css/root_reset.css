@@ -23,6 +23,7 @@
   :root {
     --fs-lg: clamp(3rem, 8vw, 5rem);
     --fs-nrml: clamp(1rem, 2vw, 1.25rem);
+    --fs-md: clamp(1.5rem, 3.5vw, 2.5rem);
     --fs-txt: clamp(0.95rem, 1.5vw, 1.25rem);
     --fs-sml: clamp(0.75rem, 1vw, 0.975rem);
   }
@@ -57,6 +58,7 @@ input,
 button,
 textarea {
   font: inherit;
+  font-family: var(--ff-sans);
 }
 p,
 blockquote,
@@ -71,6 +73,9 @@ a {
   text-decoration: none;
   font-family: var(--ff-sans);
   font-size: var(--fs-nrml);
+}
+a,
+button {
   cursor: pointer;
 }
 img,
@@ -83,6 +88,17 @@ svg,
 path,
 g {
   fill: hsl(var(--light-gray));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* ------------------------------------------------------- Helpers */
