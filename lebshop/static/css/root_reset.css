@@ -13,7 +13,7 @@
   --ff-sans: "Roboto", Arial, sans-serif;
   --ff-serif: "Roboto Slab", "Times New Roman", serif;
   /* Font-sizes */
-  --fs-lg: clamp(2rem, 8vw, 4rem);
+  --fs-lg: clamp(1.95rem, 8vw, 4rem);
   --fs-md: clamp(1.5rem, 7vw, 2.5rem);
   --fs-nrml: clamp(0.975rem, 5vw, 1.25rem);
   --fs-txt: clamp(0.875rem, 3vw, 1.125rem);
@@ -21,7 +21,7 @@
 }
 @media (min-width: 769px) {
   :root {
-    --fs-lg: clamp(3rem, 8vw, 5rem);
+    --fs-lg: clamp(3rem, 5vw, 5rem);
     --fs-nrml: clamp(1rem, 2vw, 1.25rem);
     --fs-md: clamp(1.5rem, 3.5vw, 2.5rem);
     --fs-txt: clamp(0.95rem, 1.5vw, 1.25rem);
@@ -59,6 +59,7 @@ button,
 textarea {
   font: inherit;
   font-family: var(--ff-sans);
+  border: 0;
 }
 p,
 blockquote,

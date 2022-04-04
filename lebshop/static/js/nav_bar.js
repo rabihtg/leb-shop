@@ -16,6 +16,14 @@ colseBtn.addEventListener("click", function () {
 // TODO - CHECK IF REMOVE IS NEEDED OR NEW LOGIC..........
 subMenuLinkNoHover.forEach((ml) => {
   ml.addEventListener("click", () => {
+    let openElement = document.querySelectorAll(".link-sub-menu.no-hover");
+    if (openElement) {
+      openElement.forEach((el) => {
+        if (el !== ml) {
+          el.classList.remove("no-hover");
+        }
+      });
+    }
     ml.classList.toggle("no-hover");
   });
 });
