@@ -10,6 +10,7 @@
   letter-spacing: 0.25em;
   margin-bottom: 0.5em;
 }
+
 .shop__search-cont {
   display: flex;
   flex-wrap: wrap;
@@ -45,11 +46,13 @@
 .fruit-card__img-cont {
   position: relative;
   overflow: hidden;
+  height: 300px;
   border-radius: 2px;
 }
 .fruit-card__img {
-  aspect-ratio: 1 / 1;
   object-fit: cover;
+  height: 100%;
+  width: 100%;
   object-position: center center;
   transition: transform 100ms ease-in;
 }
@@ -91,6 +94,7 @@
 @media (min-width: 769px) {
   .shop__fruit-cards-cont {
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
   }
   .fruit-card__img-overlay {
     font-size: var(--fs-md);
